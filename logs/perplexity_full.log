@@ -1,0 +1,8 @@
+programs loaded: 6144 rows
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:   0%|          | 1/310 [00:04<23:08,  4.49s/it]Loading weights:  33%|███▎      | 102/310 [00:04<00:06, 31.01it/s]Loading weights:  47%|████▋     | 147/310 [00:05<00:05, 32.16it/s]Loading weights:  56%|█████▌    | 173/310 [00:06<00:04, 33.63it/s]Loading weights:  62%|██████▏   | 191/310 [00:07<00:03, 32.94it/s]Loading weights:  66%|██████▌   | 204/310 [00:07<00:03, 34.57it/s]Loading weights:  69%|██████▉   | 214/310 [00:07<00:02, 32.44it/s]Loading weights:  72%|███████▏  | 223/310 [00:08<00:02, 32.46it/s]Loading weights:  74%|███████▍  | 229/310 [00:08<00:02, 34.32it/s]Loading weights:  76%|███████▌  | 235/310 [00:08<00:02, 31.31it/s]Loading weights:  78%|███████▊  | 242/310 [00:08<00:01, 35.32it/s]Loading weights:  80%|████████  | 248/310 [00:08<00:01, 31.85it/s]Loading weights:  83%|████████▎ | 256/310 [00:09<00:01, 31.39it/s]Loading weights:  85%|████████▌ | 265/310 [00:09<00:01, 35.43it/s]Loading weights:  87%|████████▋ | 270/310 [00:09<00:01, 32.95it/s]Loading weights:  90%|████████▉ | 278/310 [00:09<00:00, 32.16it/s]Loading weights:  93%|█████████▎| 287/310 [00:09<00:00, 40.03it/s]Loading weights:  94%|█████████▍| 292/310 [00:10<00:00, 34.74it/s]Loading weights:  97%|█████████▋| 300/310 [00:10<00:00, 31.17it/s]Loading weights: 100%|██████████| 310/310 [00:10<00:00, 29.57it/s]
+eval tokens: torch.Size([1, 1024])
+selected rows (rel_mse<0.5, parseable): 2892 of 6144
+baseline NLL: 3.254875898361206
+hybrid NLL: 3.264085054397583
+WROTE /home/will/qwen38-opt-lab/experiments/bonsai-symbolic-spike-20261017/perplexity.json

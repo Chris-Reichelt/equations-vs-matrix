@@ -1,0 +1,6 @@
+acts (1024, 2048) gate (6144, 2048)
+[Parallel(n_jobs=18)]: Using backend LokyBackend with 18 concurrent workers.
+[Parallel(n_jobs=18)]: Done   5 tasks      | elapsed:   25.8s
+[Parallel(n_jobs=18)]: Done  14 tasks      | elapsed:   29.1s
+[Parallel(n_jobs=18)]: Done  25 tasks      | elapsed:   47.9s
+[Parallel(n_jobs=18)]: Done  36 tasks      | elapsed:   53.9s

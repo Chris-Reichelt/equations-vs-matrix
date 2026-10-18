@@ -1,0 +1,8 @@
+{
+  "baseline_full_matrix": 3.254875898361206,
+  "hybrid_programs": 3.264085054397583,
+  "ppl_baseline": 25.916398066947004,
+  "ppl_hybrid": 26.15616856807855,
+  "n_program_rows": 2892,
+  "n_programs_total": 6144
+}

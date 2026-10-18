@@ -1,0 +1,464 @@
+{
+  "n_rows": 32,
+  "acts_shape": [
+    1024,
+    2048
+  ],
+  "gp": [
+    {
+      "row": 1772,
+      "n_nodes": 9,
+      "n_const": 0,
+      "prog_bits": 45,
+      "row_bits": 3246.08,
+      "compression": 72.13511111111112,
+      "rel_mse": 0.4065302711503304,
+      "secs": 0.6733846664428711,
+      "program": "sub(sub(log(X1984), sqrt(X1497)), cos(log(X1984)))"
+    },
+    {
+      "row": 4445,
+      "n_nodes": 8,
+      "n_const": 0,
+      "prog_bits": 40,
+      "row_bits": 3246.08,
+      "compression": 81.152,
+      "rel_mse": 0.3012631677356222,
+      "secs": 0.7175076007843018,
+      "program": "sub(log(cos(cos(X1267))), cos(abs(X445)))"
+    },
+    {
+      "row": 4708,
+      "n_nodes": 4,
+      "n_const": 0,
+      "prog_bits": 20,
+      "row_bits": 3246.08,
+      "compression": 162.304,
+      "rel_mse": 1.0049124564071792,
+      "secs": 0.7276473045349121,
+      "program": "min(X520, neg(X768))"
+    },
+    {
+      "row": 2543,
+      "n_nodes": 9,
+      "n_const": 0,
+      "prog_bits": 45,
+      "row_bits": 3246.08,
+      "compression": 72.13511111111112,
+      "rel_mse": 0.5661817013588368,
+      "secs": 0.9870939254760742,
+      "program": "sub(neg(X2001), cos(mul(X433, mul(X433, X734))))"
+    },
+    {
+      "row": 1134,
+      "n_nodes": 19,
+      "n_const": 0,
+      "prog_bits": 95,
+      "row_bits": 3246.08,
+      "compression": 34.16926315789473,
+      "rel_mse": 0.2800095404513524,
+      "secs": 1.0084097385406494,
+      "program": "min(min(sin(min(log(X1171), log(abs(neg(X1353))))), log(sin(X1613))), min(log(X1171), log(sin(X245))))"
+    },
+    {
+      "row": 2409,
+      "n_nodes": 2,
+      "n_const": 0,
+      "prog_bits": 10,
+      "row_bits": 3246.08,
+      "compression": 324.608,
+      "rel_mse": 0.5000806181062757,
+      "secs": 0.6274838447570801,
+      "program": "log(X1327)"
+    },
+    {
+      "row": 1695,
+      "n_nodes": 11,
+      "n_const": 0,
+      "prog_bits": 55,
+      "row_bits": 3246.08,
+      "compression": 59.019636363636366,
+      "rel_mse": 0.5523074935446401,
+      "secs": 0.6134867668151855,
+      "program": "neg(sqrt(min(neg(sqrt(min(neg(tan(X2012)), X667))), X667)))"
+    },
+    {
+      "row": 366,
+      "n_nodes": 9,
+      "n_const": 0,
+      "prog_bits": 45,
+      "row_bits": 3246.08,
+      "compression": 72.13511111111112,
+      "rel_mse": 1.1122671090669445,
+      "secs": 0.6013031005859375,
+      "program": "add(add(X69, add(add(X1701, X1647), X911)), X603)"
+    },
+    {
+      "row": 5634,
+      "n_nodes": 8,
+      "n_const": 0,
+      "prog_bits": 40,
+      "row_bits": 3246.08,
+      "compression": 81.152,
+      "rel_mse": 0.40714263047931465,
+      "secs": 0.6400108337402344,
+      "program": "neg(max(X583, add(cos(X1882), sin(X1675))))"
+    },
+    {
+      "row": 1010,
+      "n_nodes": 15,
+      "n_const": 0,
+      "prog_bits": 75,
+      "row_bits": 3246.08,
+      "compression": 43.28106666666667,
+      "rel_mse": 0.30958912190372606,
+      "secs": 0.626753568649292,
+      "program": "add(add(X1329, neg(cos(min(X1169, X1233)))), min(X1169, min(min(X1169, X1233), X1233)))"
+    },
+    {
+      "row": 3202,
+      "n_nodes": 7,
+      "n_const": 0,
+      "prog_bits": 35,
+      "row_bits": 3246.08,
+      "compression": 92.74514285714285,
+      "rel_mse": 0.2717041446747927,
+      "secs": 0.660332441329956,
+      "program": "tan(neg(div(cos(X1528), cos(X1528))))"
+    },
+    {
+      "row": 514,
+      "n_nodes": 16,
+      "n_const": 0,
+      "prog_bits": 80,
+      "row_bits": 3246.08,
+      "compression": 40.576,
+      "rel_mse": 0.4467689806532711,
+      "secs": 0.6648108959197998,
+      "program": "min(tan(sub(X131, X1830)), min(min(log(min(X2019, X971)), log(log(X1260))), log(X1260)))"
+    },
+    {
+      "row": 39,
+      "n_nodes": 7,
+      "n_const": 0,
+      "prog_bits": 35,
+      "row_bits": 3246.08,
+      "compression": 92.74514285714285,
+      "rel_mse": 0.3662827679418977,
+      "secs": 0.6420600414276123,
+      "program": "sub(neg(cos(cos(X1640))), cos(X1640))"
+    },
+    {
+      "row": 2395,
+      "n_nodes": 3,
+      "n_const": 0,
+      "prog_bits": 15,
+      "row_bits": 3246.08,
+      "compression": 216.40533333333332,
+      "rel_mse": 1.0277729663297162,
+      "secs": 0.6114034652709961,
+      "program": "sin(sin(X83))"
+    },
+    {
+      "row": 4871,
+      "n_nodes": 5,
+      "n_const": 0,
+      "prog_bits": 25,
+      "row_bits": 3246.08,
+      "compression": 129.8432,
+      "rel_mse": 0.46699711439367503,
+      "secs": 0.5984294414520264,
+      "program": "min(neg(sqrt(X1388)), X1945)"
+    },
+    {
+      "row": 3304,
+      "n_nodes": 3,
+      "n_const": 0,
+      "prog_bits": 15,
+      "row_bits": 3246.08,
+      "compression": 216.40533333333332,
+      "rel_mse": 0.45897736599353756,
+      "secs": 0.6081054210662842,
+      "program": "neg(cos(X701))"
+    },
+    {
+      "row": 1186,
+      "n_nodes": 13,
+      "n_const": 0,
+      "prog_bits": 65,
+      "row_bits": 3246.08,
+      "compression": 49.939692307692304,
+      "rel_mse": 0.7439659351669347,
+      "secs": 0.6517109870910645,
+      "program": "sub(mul(mul(X865, X14), X14), sqrt(sub(X1343, sqrt(add(X1591, X729)))))"
+    },
+    {
+      "row": 3463,
+      "n_nodes": 6,
+      "n_const": 0,
+      "prog_bits": 30,
+      "row_bits": 3246.08,
+      "compression": 108.20266666666666,
+      "rel_mse": 0.4947748819103838,
+      "secs": 0.625687837600708,
+      "program": "neg(cos(sin(sin(tan(X1121)))))"
+    },
+    {
+      "row": 886,
+      "n_nodes": 7,
+      "n_const": 0,
+      "prog_bits": 35,
+      "row_bits": 3246.08,
+      "compression": 92.74514285714285,
+      "rel_mse": 1.0222151606141705,
+      "secs": 0.6319689750671387,
+      "program": "min(min(log(cos(X740)), X940), X940)"
+    },
+    {
+      "row": 3039,
+      "n_nodes": 6,
+      "n_const": 0,
+      "prog_bits": 30,
+      "row_bits": 3246.08,
+      "compression": 108.20266666666666,
+      "rel_mse": 0.24385678230620775,
+      "secs": 0.6399414539337158,
+      "program": "inv(neg(cos(cos(cos(X1462)))))"
+    },
+    {
+      "row": 1395,
+      "n_nodes": 8,
+      "n_const": 0,
+      "prog_bits": 40,
+      "row_bits": 3246.08,
+      "compression": 81.152,
+      "rel_mse": 0.6104531941806213,
+      "secs": 0.6098904609680176,
+      "program": "sub(neg(sqrt(sqrt(sub(X1344, X1785)))), X487)"
+    },
+    {
+      "row": 1467,
+      "n_nodes": 1,
+      "n_const": 0,
+      "prog_bits": 5,
+      "row_bits": 3246.08,
+      "compression": 649.216,
+      "rel_mse": 1.2804892395168694,
+      "secs": 0.5855960845947266,
+      "program": "X1936"
+    },
+    {
+      "row": 5508,
+      "n_nodes": 7,
+      "n_const": 0,
+      "prog_bits": 35,
+      "row_bits": 3246.08,
+      "compression": 92.74514285714285,
+      "rel_mse": 0.6347777467443598,
+      "secs": 0.6123003959655762,
+      "program": "neg(sqrt(sqrt(max(tan(X483), X1741))))"
+    },
+    {
+      "row": 5353,
+      "n_nodes": 9,
+      "n_const": 0,
+      "prog_bits": 45,
+      "row_bits": 3246.08,
+      "compression": 72.13511111111112,
+      "rel_mse": 0.21161437354070978,
+      "secs": 0.6577937602996826,
+      "program": "neg(add(cos(cos(cos(cos(X527)))), cos(X527)))"
+    },
+    {
+      "row": 2054,
+      "n_nodes": 3,
+      "n_const": 0,
+      "prog_bits": 15,
+      "row_bits": 3246.08,
+      "compression": 216.40533333333332,
+      "rel_mse": 1.2485872040954498,
+      "secs": 0.5905821323394775,
+      "program": "sqrt(sqrt(X331))"
+    },
+    {
+      "row": 708,
+      "n_nodes": 5,
+      "n_const": 0,
+      "prog_bits": 25,
+      "row_bits": 3246.08,
+      "compression": 129.8432,
+      "rel_mse": 0.848605525505329,
+      "secs": 0.6386291980743408,
+      "program": "sub(inv(cos(X441)), X177)"
+    },
+    {
+      "row": 5478,
+      "n_nodes": 5,
+      "n_const": 1,
+      "prog_bits": 41,
+      "row_bits": 3246.08,
+      "compression": 79.17268292682927,
+      "rel_mse": 0.8974929468482338,
+      "secs": 0.6481194496154785,
+      "program": "sub(sin(inv(-0.445)), X786)"
+    },
+    {
+      "row": 5368,
+      "n_nodes": 11,
+      "n_const": 0,
+      "prog_bits": 55,
+      "row_bits": 3246.08,
+      "compression": 59.019636363636366,
+      "rel_mse": 0.5553610895637412,
+      "secs": 0.6488037109375,
+      "program": "sub(sub(neg(sqrt(cos(sin(X1356)))), abs(sin(X1356))), X235)"
+    },
+    {
+      "row": 3339,
+      "n_nodes": 6,
+      "n_const": 0,
+      "prog_bits": 30,
+      "row_bits": 3246.08,
+      "compression": 108.20266666666666,
+      "rel_mse": 0.676856956621791,
+      "secs": 0.6421914100646973,
+      "program": "add(neg(sqrt(X283)), sin(X932))"
+    },
+    {
+      "row": 5792,
+      "n_nodes": 6,
+      "n_const": 0,
+      "prog_bits": 30,
+      "row_bits": 3246.08,
+      "compression": 108.20266666666666,
+      "rel_mse": 0.9191660118079734,
+      "secs": 0.6408393383026123,
+      "program": "add(X1753, neg(cos(neg(X1256))))"
+    },
+    {
+      "row": 2826,
+      "n_nodes": 2,
+      "n_const": 0,
+      "prog_bits": 10,
+      "row_bits": 3246.08,
+      "compression": 324.608,
+      "rel_mse": 0.625210112984688,
+      "secs": 0.5902595520019531,
+      "program": "sqrt(X73)"
+    },
+    {
+      "row": 2094,
+      "n_nodes": 5,
+      "n_const": 0,
+      "prog_bits": 25,
+      "row_bits": 3246.08,
+      "compression": 129.8432,
+      "rel_mse": 0.8242654494285194,
+      "secs": 0.5983858108520508,
+      "program": "neg(sqrt(sqrt(sqrt(X463))))"
+    }
+  ],
+  "svd": [
+    {
+      "rank": 1,
+      "rel_mse": 0.9964128774657403,
+      "matrix_bits": 12984.32
+    },
+    {
+      "rank": 2,
+      "rel_mse": 0.9945488085781263,
+      "matrix_bits": 25968.64
+    },
+    {
+      "rank": 4,
+      "rel_mse": 0.9910200286353623,
+      "matrix_bits": 51937.28
+    },
+    {
+      "rank": 8,
+      "rel_mse": 0.984355188381413,
+      "matrix_bits": 103874.56
+    },
+    {
+      "rank": 16,
+      "rel_mse": 0.9718971453942952,
+      "matrix_bits": 207749.12
+    },
+    {
+      "rank": 32,
+      "rel_mse": 0.9491723481780461,
+      "matrix_bits": 415498.24
+    },
+    {
+      "rank": 64,
+      "rel_mse": 0.9079169984429258,
+      "matrix_bits": 830996.48
+    },
+    {
+      "rank": 128,
+      "rel_mse": 0.8342510143672478,
+      "matrix_bits": 1661992.96
+    },
+    {
+      "rank": 256,
+      "rel_mse": 0.7077084010849973,
+      "matrix_bits": 3323985.92
+    }
+  ],
+  "sparse": [
+    {
+      "k": 1,
+      "rel_mse": 0.9961115384222593,
+      "bits": 12.585,
+      "compression": 257.9324592769169
+    },
+    {
+      "k": 2,
+      "rel_mse": 0.9931196488034901,
+      "bits": 25.17,
+      "compression": 128.96622963845846
+    },
+    {
+      "k": 4,
+      "rel_mse": 0.9901745207627717,
+      "bits": 50.34,
+      "compression": 64.48311481922923
+    },
+    {
+      "k": 8,
+      "rel_mse": 0.9791375894643568,
+      "bits": 100.68,
+      "compression": 32.241557409614614
+    },
+    {
+      "k": 16,
+      "rel_mse": 0.9653884697571934,
+      "bits": 201.36,
+      "compression": 16.120778704807307
+    },
+    {
+      "k": 32,
+      "rel_mse": 0.966987303088808,
+      "bits": 402.72,
+      "compression": 8.060389352403654
+    },
+    {
+      "k": 64,
+      "rel_mse": 0.9430589445914693,
+      "bits": 805.44,
+      "compression": 4.030194676201827
+    },
+    {
+      "k": 128,
+      "rel_mse": 0.8858922550597876,
+      "bits": 1610.88,
+      "compression": 2.0150973381009134
+    },
+    {
+      "k": 256,
+      "rel_mse": 0.8061897858141054,
+      "bits": 3221.76,
+      "compression": 1.0075486690504567
+    }
+  ]
+}
