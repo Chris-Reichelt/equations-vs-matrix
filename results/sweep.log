@@ -1,6 +1,30 @@
 acts (1024, 2048)
-Traceback (most recent call last):
-  File "/home/will/equations-vs-matrix/scripts/gp_sweep_all_layers.py", line 64, in <module>
-    with safe_open(MODEL, framework="numpy", device="cpu") as f:
-         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: No such file or directory: ../models/Bonsai-1.7B-unpacked/model.safetensors
+layer 0: 6144 rows, rel_mse med=0.895, bits med=20, frac<0.5=0.12, 1301s elapsed
+layer 1: 6144 rows, rel_mse med=0.794, bits med=25, frac<0.5=0.19, 2622s elapsed
+layer 2: 6144 rows, rel_mse med=0.770, bits med=25, frac<0.5=0.23, 3938s elapsed
+layer 3: 6144 rows, rel_mse med=0.750, bits med=25, frac<0.5=0.24, 5255s elapsed
+layer 4: 6144 rows, rel_mse med=0.693, bits med=25, frac<0.5=0.28, 6586s elapsed
+layer 5: 6144 rows, rel_mse med=0.815, bits med=23, frac<0.5=0.18, 7901s elapsed
+layer 6: 6144 rows, rel_mse med=0.717, bits med=25, frac<0.5=0.26, 9233s elapsed
+layer 7: 6144 rows, rel_mse med=0.565, bits med=30, frac<0.5=0.41, 10586s elapsed
+layer 8: 6144 rows, rel_mse med=0.610, bits med=28, frac<0.5=0.35, 11936s elapsed
+layer 9: 6144 rows, rel_mse med=0.558, bits med=30, frac<0.5=0.42, 13296s elapsed
+layer 10: 6144 rows, rel_mse med=0.549, bits med=30, frac<0.5=0.44, 14674s elapsed
+layer 11: 6144 rows, rel_mse med=0.595, bits med=30, frac<0.5=0.38, 16060s elapsed
+layer 12: 6144 rows, rel_mse med=0.677, bits med=25, frac<0.5=0.31, 17390s elapsed
+layer 13: 6144 rows, rel_mse med=0.742, bits med=25, frac<0.5=0.24, 18715s elapsed
+layer 14: 6144 rows, rel_mse med=0.801, bits med=25, frac<0.5=0.20, 20071s elapsed
+layer 15: 6144 rows, rel_mse med=0.804, bits med=20, frac<0.5=0.18, 21391s elapsed
+layer 16: 6144 rows, rel_mse med=0.824, bits med=20, frac<0.5=0.16, 22702s elapsed
+layer 17: 6144 rows, rel_mse med=0.767, bits med=25, frac<0.5=0.20, 24035s elapsed
+layer 18: 6144 rows, rel_mse med=0.791, bits med=25, frac<0.5=0.19, 25353s elapsed
+layer 19: 6144 rows, rel_mse med=0.805, bits med=25, frac<0.5=0.17, 26692s elapsed
+layer 20: 6144 rows, rel_mse med=0.793, bits med=25, frac<0.5=0.19, 28012s elapsed
+layer 21: 6144 rows, rel_mse med=0.802, bits med=25, frac<0.5=0.18, 29334s elapsed
+layer 22: 6144 rows, rel_mse med=0.818, bits med=25, frac<0.5=0.17, 30646s elapsed
+layer 23: 6144 rows, rel_mse med=0.817, bits med=25, frac<0.5=0.18, 31977s elapsed
+layer 24: 6144 rows, rel_mse med=0.843, bits med=25, frac<0.5=0.15, 33283s elapsed
+layer 25: 6144 rows, rel_mse med=0.851, bits med=20, frac<0.5=0.15, 34591s elapsed
+layer 26: 6144 rows, rel_mse med=0.873, bits med=20, frac<0.5=0.12, 35883s elapsed
+layer 27: 6144 rows, rel_mse med=0.883, bits med=20, frac<0.5=0.12, 37183s elapsed
+WROTE sweep complete

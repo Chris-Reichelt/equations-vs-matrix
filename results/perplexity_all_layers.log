@@ -1,0 +1,34 @@
+layer 0: 764 units replaced
+layer 1: 1196 units replaced
+layer 2: 1405 units replaced
+layer 3: 1452 units replaced
+layer 4: 1713 units replaced
+layer 5: 1129 units replaced
+layer 6: 1611 units replaced
+layer 7: 2536 units replaced
+layer 8: 2179 units replaced
+layer 9: 2609 units replaced
+layer 10: 2673 units replaced
+layer 11: 2361 units replaced
+layer 12: 1883 units replaced
+layer 13: 1500 units replaced
+layer 14: 1217 units replaced
+layer 15: 1114 units replaced
+layer 16: 1002 units replaced
+layer 17: 1248 units replaced
+layer 18: 1144 units replaced
+layer 19: 1065 units replaced
+layer 20: 1154 units replaced
+layer 21: 1099 units replaced
+layer 22: 1038 units replaced
+layer 23: 1094 units replaced
+layer 24: 932 units replaced
+layer 25: 898 units replaced
+layer 26: 762 units replaced
+layer 27: 750 units replaced
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:   0%|          | 1/310 [00:04<24:07,  4.69s/it]Loading weights:  35%|███▍      | 108/310 [00:04<00:06, 31.73it/s]Loading weights:  53%|█████▎    | 163/310 [00:06<00:04, 35.41it/s]Loading weights:  63%|██████▎   | 195/310 [00:06<00:03, 37.10it/s]Loading weights:  70%|██████▉   | 216/310 [00:07<00:02, 36.78it/s]Loading weights:  75%|███████▍  | 231/310 [00:07<00:02, 37.47it/s]Loading weights:  78%|███████▊  | 243/310 [00:08<00:01, 37.33it/s]Loading weights:  81%|████████▏ | 252/310 [00:08<00:01, 37.13it/s]Loading weights:  84%|████████▍ | 260/310 [00:08<00:01, 35.08it/s]Loading weights:  86%|████████▌ | 266/310 [00:08<00:01, 37.14it/s]Loading weights:  88%|████████▊ | 272/310 [00:09<00:01, 34.25it/s]Loading weights:  90%|████████▉ | 278/310 [00:09<00:01, 31.58it/s]Loading weights:  92%|█████████▏| 286/310 [00:09<00:00, 32.01it/s]Loading weights:  95%|█████████▍| 294/310 [00:09<00:00, 37.76it/s]Loading weights:  97%|█████████▋| 300/310 [00:09<00:00, 33.26it/s]Loading weights: 100%|██████████| 310/310 [00:09<00:00, 31.14it/s]
+eval tokens: torch.Size([1, 1024])
+baseline NLL: 3.254875898361206
+hybrid NLL: 4.1535868644714355
+WROTE ./results/perplexity_all_layers.json
